@@ -1,7 +1,4 @@
 using PyCall
-pygui(:qt5)
-using PyPlot
-using Distributions
 
 function RK4( f::Function, vars::Vector{Float64}, params::Vector{Float64}
     , h::Float64)
